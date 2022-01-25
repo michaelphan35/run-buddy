@@ -27,7 +27,7 @@ header a {
     color: #fce138
 }
 
-header nav {}
+header nav {
     float: right;
     margin: 7px 0;
 }
