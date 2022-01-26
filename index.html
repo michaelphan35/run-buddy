@@ -32,20 +32,22 @@
         </header>
 
     <!-- hero/jumbotron -->
-    <section>
-        <div>
+    <section class="hero">
+        <div class="hero-form">
             <h3>Get Started Today</h3>
-            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <p><Strong>Fill out this form and one of our trainers will schedule a consult</Strong></p>
             <!-- Add form element -->
             <form>
-                <label for="name">Enter full name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" />
-                <label for="email">Enter email address:</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
-                <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <label for="name"><strong>Enter full name:</strong></label>
+                <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
+
+                <label for="email"><strong>Enter email address:</strong></label>
+                <input class="form-input" type="email" placeholder="Email Address" name="email" id="email" />
+
+                <label for="phone"><strong>Enter a telephone number:</strong></label>
+                <input class="form-input" type="tel" placeholder="Phone Number" name="phone" id="phone" />
                 <p>
-                    Have you worked out with a trainer before?
+                    <strong>Have you worked out with a trainer before?</strong>
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
                     <lable for="trainer-yes">Yes</lable>
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
@@ -53,7 +55,7 @@
                 </p>
                 <p>
                     <label for="checkbox">
-                        I acknowledge that I am at least 18 years of acknowledge
+                        <strong>I acknowledge that I am at least 18 years of age</strong>
                     </label>
                     <input type="checkbox" name="age-confirm" id="checkbox" />
                 </p>
